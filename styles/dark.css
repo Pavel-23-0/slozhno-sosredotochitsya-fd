@@ -13,7 +13,6 @@
   --section__title-color: #ff0070;
 }
 
-/* Авто-тема = берет тему браузера */
 @media (prefers-color-scheme: dark) {
   .theme-auto {
     --background-image: url(../images/cover-image-dark.png);
