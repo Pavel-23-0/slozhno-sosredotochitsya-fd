@@ -181,12 +181,12 @@
 
 @media (width >= 1024px) {
   .header__title-text {
-    line-height: 129.53px;
+    line-height: 82.5%;
   }
 }
 
 .header__paragraph-text {
-  width: 100%;
+  inline-size: 100%;
 }
 
 @media (width >= 768px) {
@@ -231,7 +231,6 @@
 
 @media (width < 768px) {
   .section {
-    line-height: 146.25%;
     display: flex;
     flex-wrap: wrap;
   }
@@ -239,7 +238,6 @@
 
 @media (width >= 768px) {
   .section_why-how {
-    line-height: 146.25%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
@@ -253,7 +251,6 @@
 
 @media (width >= 768px) and (width < 1024px) {
   .section_what {
-    line-height: 146.25%;
     display: grid;
     grid-template-columns: 1fr 3fr;
   }
@@ -401,7 +398,7 @@
 @media (width >= 1024px) {
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    line-height: 129.53px;
+    line-height: 82.5%;
   }
 }
 @media (width >= 768px) and (width < 1024px) {
@@ -425,4 +422,3 @@
   background-position: center;
   background-attachment: fixed;
 }
- 
