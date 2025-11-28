@@ -14,12 +14,12 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  :root:not(.theme-dark) {
     --background-image: url(../images/cover-image-light.png);
     --rec-color: transparent;
     --background-color: #fff1f7;
     --paragraph-text-color: #353430;
-    --main-text-color: #353430;
+    --main-text-color: #353430; 
     --title-color: #ffc2e6;
     --section-title-color: #353430;
     --link-color: #ff8dcb;
@@ -27,5 +27,6 @@
     --button-color: #353430;
     --button-hover-color: rgb(50 49 45 / 0.4);
     --shadow-color: #ff0070;
+    color-scheme: light;
   }
 }
