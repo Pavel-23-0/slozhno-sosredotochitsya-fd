@@ -1,4 +1,4 @@
-.theme-light {
+:root.theme-light {
   --background-image: url(../images/cover-image-light.png);
   --rec-color: transparent;
   --background-color: #fff1f7;
