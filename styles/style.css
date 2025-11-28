@@ -281,7 +281,7 @@
 
 .section__title {
   font-size: 18px;
-  color: var(--section__title-color);
+  color: var(--section-title-color);
 }
 
 @media (width < 768px) {
@@ -408,7 +408,7 @@
 }
 
 @media (width <= 768px) {
-  .theme_light .footer__title {
+  .theme-light .footer__title {
     --shadow-color: #ff8dcb;
   }
 }
